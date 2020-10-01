@@ -1,3 +1,4 @@
+require 'pry'
 def count_strings(array)
    array.count do |element|
      element.is_a? (String)
@@ -5,5 +6,5 @@ def count_strings(array)
 end
 
 def count_empty_strings(array)
-  
+  binding.pry 
 end
